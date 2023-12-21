@@ -23,3 +23,17 @@ else:
 
 for number in [1, 2, 3, 4, 5]:
     print(number)
+
+print("different list")
+my_list = [3, 6, 9]
+for number in my_list:
+    print(number/3)
+
+
+def is_adult(age):
+    if age >= 18:
+        return True
+    else:
+        return False
+    
+print(is_adult(20))
