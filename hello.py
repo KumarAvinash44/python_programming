@@ -47,3 +47,13 @@ print(type(magic))
 magic = magic.swapcase()
 print(magic)
 
+magic = magic.replace("E", "a")
+print(magic)   
+
+magic = magic.split("a")
+print(magic)
+
+# core python classes
+# int, floats, string, boolean, list, lists, dictionaries, tuples, sets, frozensets, functions, ranges, none
+
+# attribute: A value associated with an object or class which is referenced by name using dot notation. For example, if an object o has an attribute a it would be referenced as o.a.
