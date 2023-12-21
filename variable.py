@@ -18,5 +18,6 @@ print(f'converted type of the variable: {type(max_age)}')
 max_age = "ninety-nine"
 print(max_age)
 
-
+# python follow the order of paranthesis in mathematics
+print(2 + (3* 4))
 
