@@ -37,3 +37,6 @@ def is_adult(age):
         return False
     
 print(is_adult(20))
+
+new_list = [20, 25, 10, 5]
+print(sorted(new_list))
